@@ -12,6 +12,7 @@ import { ErrorComponent } from './error/error.component';
 // auth0
 import { AuthModule } from '@auth0/auth0-angular';
 import { environment } from 'src/environments/environment';
+import { JobFormComponent } from './job-form/job-form.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { environment } from 'src/environments/environment';
     HeaderComponent,
     FooterComponent,
     ErrorComponent,
+    JobFormComponent,
   ],
   imports: [
     BrowserModule,
